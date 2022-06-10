@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="./src/my-element.js"></script>
+    <script type="module" src="./src/sub-element.js"></script>
+  </head>
+  <body class="flex flex-col h-full w-full">
+    <my-element class="w-full h-full"> </my-element>
+    <h1 class="text-8xl text-center font-black">
+      <span
+        class="
+          bg-gradient-to-r
+          from-cyan-500
+          via-fuchia-600
+          to-[blueviolet]
+          bg-clip-text
+          text-transparent
+        "
+        >Vite</span
+      >
+      <span
+        class="
+          bg-gradient-to-r
+          from-[blueviolet]
+          to-cyan-500
+          bg-clip-text
+          text-transparent
+        "
+        >+</span
+      >
+      <span
+        class="
+          bg-gradient-to-b
+          from-blue-800
+          via-fuchia-400
+          to-cyan-500
+          bg-clip-text
+          text-transparent
+        "
+        >Lit</span
+      >
+    </h1>
+    <sub-element></sub-element>
+  </body>
+</html>
